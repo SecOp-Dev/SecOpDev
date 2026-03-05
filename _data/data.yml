@@ -58,12 +58,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Cloud Security Architect and Security Operations Engineer with a B.B.A., specializing in aligning enterprise security architecture with business and regulatory requirements through scalable, cloud-native security engineering. Experienced in designing and operationalizing SIEM and telemetry pipelines—including log ingestion, normalization, enrichment, detection engineering, and automated response workflows—to enable high-fidelity threat detection and rapid incident response. Practitioner of zero-trust architecture with deep experience in security orchestration, proactive threat hunting, control validation, and adversary emulation to continuously assess and strengthen defensive capabilities across cloud environments. 🔐☁️🛡️
 education:
   title: Education
   info:
