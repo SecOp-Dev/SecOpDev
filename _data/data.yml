@@ -73,24 +73,20 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: SOC Analyst II & SOC Lead
+    time: 2023 - Present
+    company: Novolex - Charlotte, NC
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+      Design and deliver enterprise security reference architectures for a multi-tenant, cloud-native environment. Focus on secure-by-design patterns (least-privilege identity model, microsegmentation, fault-tolerant telemetry), threat-informed detection engineering, and automated mitigation pipelines. Validate designs via continuous adversary emulation to ensure resiliency and measure risk reduction.
+        •	Directed incident response and architectural changes, leading cross-functional teams (IAM, network, endpoint, stakeholders) to rapidly contain and remediate threats.
+        •	Led strategic security architecture projects balancing risk reduction, cost optimization, and delivery timelines, directly improving enterprise security posture.
+        •	Developed conditional security orchestration, mitigating risk across 10,000 endpoints and 25,000 identities.
+        •	Designed & integrated MDR architecture spanning 70+ technologies, ensuring high availability, data integrity, and operational scalability in under 150 days.
+        •	Partner with architecture, IAM, and network teams to adopt secure design patterns (zero-trust), least-privilege access controls across endpoint, identity, and detection pipelines.
+
   - role: SOC Analyst I
     time: 2021 - 2023
-    company: Pactiv Evergreen, Chicago
+    company: Pactiv Evergreen - Chicago, IL
     details: |
       Built the organization’s operational foundations for detection, response automation, and secure platform adoption while evolving into a full-time engineering role.
         •	Designed event-driven security orchestration (SOAR) and conditional response patterns assuring rapid, repeatable remediation across 10,000 endpoints & 25,000 identities.
@@ -98,11 +94,11 @@ experiences:
         •	Systemic threat modeling & attack-surface assessments: Active Directory resilience, executive impersonation, enabling strategic prioritization of architectural remediation.
   - role: Integration Engineer
     time: 2012 - 2014
-    company: Amazon, London
+    company: Business IT Source, London
     details: |
-      Brought mechanical engineering background to IT, leveraging the six-sigma methodology to streamline technical processes for 6+ Fortune 500 organizations.
-        - Bullet point
-        - Bullet point
+      Leveraged a mechanical engineering background and Six Sigma methodology to optimize IT workflows and streamline technical processes for 6+ Fortune 500 organizations.
+      •    Seamless integration of commercial compute resources into existing enterprise technology infrastructures.
+      •    On-site engineering and customer management.
 
 certifications:
   title: Training
@@ -115,19 +111,7 @@ certifications:
     credentialurl: 
     credentialname: 
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
+      
   - name: Git learning
     start: 2019
     end:
