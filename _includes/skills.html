@@ -8,6 +8,20 @@
     {{ skills.title }}
   </h2>
 
+  {% if skills.categories %}
+  <div class="skillset-categories">
+    {% for category in skills.categories %}
+    <div class="skill-category">
+      <h3 class="skill-category-title">{{ category.name }}</h3>
+      <div class="skill-tags">
+        {% for item in category.items %}
+        <span class="skill-tag">{{ item }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% elsif skills.toolset %}
   <div class="skillset">
     {% for skill in skills.toolset %}
     <div class="item">
@@ -21,6 +35,7 @@
     <!--//item-->
     {% endfor %}
   </div>
+  {% endif %}
 </section>
 <!--//skills-section-->
 {% endif %}

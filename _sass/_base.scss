@@ -284,6 +284,40 @@ p {
   }
 }
 
+.skillset-categories {
+  .skill-category {
+    margin-bottom: 18px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .skill-category-title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: darken($theme-color, 15%);
+    margin-top: 0;
+    margin-bottom: 8px;
+    letter-spacing: 0.04em;
+  }
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .skill-tag {
+    display: inline-block;
+    background: lighten($theme-color, 48%);
+    color: darken($theme-color, 20%);
+    border: 1px solid lighten($theme-color, 30%);
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 3px 8px;
+    line-height: 1.4;
+    white-space: nowrap;
+  }
+}
+
 .footer {
   padding-top: 30px;
   .copyright {
