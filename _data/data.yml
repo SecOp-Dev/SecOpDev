@@ -381,5 +381,83 @@ skills:
     - HIPAA
     - GDPR
 
+recommendations:
+  title: Recommendations
+
+  list:
+    - person: Cristina Partipilo, CFE
+      role: IT Compliance, Novolex
+      recommendation: |
+        I've had the opportunity to work closely with Sean and have come to rely on him as a true subject matter expert.
+        He's someone I consistently go to when I need clarity or support in the world of SOC and he always brings a thoughtful,
+        well-informed perspective. He's responsive, detail-oriented and takes strong ownership of his work, especially in
+        time-sensitive situations.
+
+        What stood out most to me was how naturally he stepped into a leadership role when the team needed it. He took on the
+        added responsibility without hesitation and helped maintain stability for the team. He approached it with confidence and
+        professionalism, which made a meaningful impact.
+
+        Beyond his technical expertise, he's a dependable and steady teammate who shows up and gets things done the right way.
+        I genuinely value working with him and would highly recommend him as a strong contributor and trusted resource on any team.
+
+    - person: Vojt Barys, PgMP, PMP
+      role: Cyber Security Program Manager
+      recommendation: |
+        I have the pleasure of working with Sean across several cybersecurity programs I manage, and he consistently demonstrates
+        exceptional technical expertise and leadership. Sean designs and delivers secure, scalable architectures, leads incident
+        response efforts, and drives impactful initiatives such as MDR integration and security orchestration across complex
+        environments. Sean operates not only as a trusted SME but also as a business owner, making strategic decisions that
+        balance risk, cost, and delivery while improving the organization's overall security posture. He is highly collaborative,
+        proactive, and simply excellent to work with — I strongly recommend him for any cybersecurity role.
+
+    - person: Jason Woo
+      role: Lead IT Architect, Azure & Active Directory
+      recommendation: |
+        I've had the pleasure of working with Sean, and he consistently stands out as a highly capable and dependable
+        cybersecurity professional. As a SME on the SOC team, he brings a strong blend of technical expertise and operational
+        awareness that makes an immediate impact during incident response. His ability to quickly assess situations and respond
+        decisively has been critical in maintaining the effectiveness of our security operations.
+
+        Sean is also an excellent developer, leveraging his coding skills to streamline Microsoft Sentinel processes and improve
+        Microsoft Defender detection and response workflows. Whether it's automating tasks or enhancing existing capabilities,
+        he approaches challenges with both creativity and precision.
+
+        What truly sets Sean apart is his initiative and leadership. During a period when his team faced extended absences,
+        he stepped up without hesitation — taking ownership, ensuring continuity, and keeping operations running smoothly.
+        His reliability during that time spoke volumes about his professionalism and commitment.
+
+        He is also a fast learner who continuously expands his skill set to meet evolving needs. For example, he quickly ramped
+        up on Kusto Query Language (KQL) and applied it effectively to deliver immediate value in his role managing the
+        Microsoft Sentinel service.
+
+        Sean is a strong team player, technically sharp, and someone you can count on when it matters most. Any organization
+        would benefit from having him on their team.
+
+    - person: Brandon Ballesteros
+      role: Cybersecurity Analyst, Novolex
+      recommendation: |
+        I had the privilege of working alongside Sean at Novolex, where he made a lasting impact on both my growth and our
+        team's cybersecurity capabilities.
+
+        From day one, Sean was an exceptional mentor. Even while managing a demanding workload, he consistently made time to
+        guide me, answer questions, and build my confidence. His ability to balance deep technical expertise with a genuine
+        investment in others speaks volumes about both his skill and character.
+
+        Sean is one of the most capable security professionals I've worked with. He combines deep expertise with a broad skill
+        set, equally comfortable exploring red team concepts as he is building and optimizing SOC infrastructure. He played a
+        key role in developing our SIEM environment and improving efficiency through automation, alert tuning, and executive
+        reporting.
+
+        He also stood out for his collaboration across teams and his performance during incidents, where leadership relied on
+        his clear thinking, sound judgment, and strong execution.
+
+        During a challenging period following a merger, when our team was significantly reduced, Sean stepped in as interim
+        manager. While continuing his technical responsibilities, he led the team through the transition seamlessly, onboarding
+        new tools, retiring legacy systems, consolidating processes, and aligning the team with new expectations. Just as
+        importantly, he continued developing junior team members through hands-on training and assigning meaningful work,
+        consistently elevating those around him.
+
+        Sean operates well beyond his title. He is highly skilled, deeply respected, and someone I recommend without hesitation.
+
 footer: >
   Designed with <i class="fa-solid fa-bug-slash"></i> by <a href="https://sean.secop.dev" target="_blank" rel="nofollow">Sean Cullen</a>
