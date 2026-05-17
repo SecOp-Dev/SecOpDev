@@ -17,6 +17,8 @@ sidebar:
   phone: (303) 656-9182
   timezone: America/Chicago # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
   citizenship: U.S. Citizen
+  location: Arkansas, USA
+  availability: Open to select roles
   website: https://career.secop.dev # Include the full website URL, including "http://" or "https://".
   linkedin: secopdev
   xing: #alandoe
@@ -35,7 +37,7 @@ sidebar:
   pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
   #languages:
-    #title: #Language
+    #title: #Language 
     #info:
     #- idiom: #English
 
@@ -56,6 +58,15 @@ career-profile:
   title: Career Profile
   summary: |
     Hands-on cybersecurity engineer with 5+ years architecting, operating, and continuously improving enterprise-scale detection and response programs across Fortune 200 environments spanning 11,000+ endpoints and 25,000+ users. Deep technical expertise in SIEM/SOAR engineering, EDR/XDR, detection content development, threat hunting, and DFIR. Long-standing partner to the CISO and CIO on Zero Trust roadmaps, secure-by-design cloud architecture, and board-level risk reduction. Passionate about driving down MTTD and MTTR through automation, high-fidelity/low-volume telemetry, and ATT&CK-aligned analytics that prevent material cyber loss.
+
+highlights:
+  title: Career Highlights
+  list:
+  - "$5M+ reduction in annual incident impact through enterprise-wide incident response leadership"
+  - "90% reduction in aggregate enterprise risk exposure via secure-by-design cloud architecture"
+  - "60% improvement in MTTD/MTTR through SIEM/SOAR detection engineering and automation"
+  - "11,000 assets onboarded to EDR/MDR in under 100 days in a greenfield environment"
+  - "22,000+ automated incident resolutions engineered across 11,000 endpoints and 25,000 users"
 
 education:
   title: Education
@@ -260,29 +271,26 @@ projects:
   intro: >
   assignments:
   - title: Endpoint Detection & Response
-    link: #"#hook"
+    link:
     tagline: "Led enterprise initiative to standardize endpoint security across a multi-tenant environment through policy development & deployment of EDR tools. Unified security baselines, telemetry collection, and policy governance:<br />
     -  Microsoft Defender, CrowdStrike & DLP agent configuration for 11,000 endpoints:<br />
     -  Consistent detection, prevention, and response capabilities. <br />
-    -  Enhance threat visibility and strengthen endpoint protection. <br />
-    🔒💻🛡️🦅"
+    -  Enhance threat visibility and strengthen endpoint protection."
 
   - title: Microsoft Sentinel
-    link: "#"
+    link:
     tagline: "Designed and implemented a multi-tenant cloud security architecture using Microsoft Sentinel, enabling:<br />
     - Centralized security monitoring and detection across distributed cloud and on-premises environments.<br />
     - Designed and curated scalable log ingestion, cross-tenant data integration, and detection engineering workflows to support unified threat visibility.<br />
-    - Built automated response to ensure consistent security governance application across the enterprise.<br />
-    🕵🏻‍♂️𖦏🤖☁️"
+    - Built automated response to ensure consistent security governance application across the enterprise."
 
   - title: MDR Architecture
-    link: "#"
+    link:
     tagline: "Served as SOC lead & lead engineer throughout Managed Detection and Response (MDR) provider integration, onboarding 70+ hybrid cloud and on-premises telemetry sources in under 100 days. Architected redundant Unix-based log collection and secure data forwarding across diverse infrastructure, directly responsible for:<br>
         - Threat Detection in Depth — 2,000 unique MITRE ATT&CK TTP-based alerting.<br />
         - MTTR Reduction — 50%<br />
         - Enterprise Visibility — Single-pane-of-glass for query & remediation capabilities spanning 12+ SaaS solutions.<br />
-        - Automated response implementation — across endpoints, identities, and cloud environments.<br />
-        🔐📡🪵"
+        - Automated response implementation — across endpoints, identities, and cloud environments."
 
 skills:
   title: Technical Skills

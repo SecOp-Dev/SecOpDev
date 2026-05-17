@@ -318,6 +318,33 @@ p {
   }
 }
 
+.highlights-section {
+  .highlights-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  .highlights-list li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  .highlights-list li:last-child {
+    margin-bottom: 0;
+  }
+  .highlights-list li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: lighten($theme-color, 15%);
+  }
+}
+
 .footer {
   padding-top: 30px;
   .copyright {
