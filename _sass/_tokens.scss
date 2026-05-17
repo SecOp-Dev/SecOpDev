@@ -1,0 +1,30 @@
+/* ======= Design Tokens ======= */
+
+:root {
+  /* Dark theme (default) */
+  --bg:          #0d1117;
+  --panel:       #161b22;
+  --panel-alt:   #1c2128;
+  --border:      #30363d;
+  --text:        #c9d1d9;
+  --text-strong: #f0f6fc;
+  --text-muted:  #8b949e;
+  --accent:      #3fb950;
+  --accent-dim:  rgba(63, 185, 80, 0.12);
+  --shadow:      0 1px 3px rgba(0, 0, 0, 0.4);
+  --font-sans:   'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono:   'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+[data-theme="light"] {
+  --bg:          #ffffff;
+  --panel:       #f6f8fa;
+  --panel-alt:   #eaeef2;
+  --border:      #d0d7de;
+  --text:        #1f2328;
+  --text-strong: #0d1117;
+  --text-muted:  #656d76;
+  --accent:      #1a7f37;
+  --accent-dim:  rgba(26, 127, 55, 0.10);
+  --shadow:      0 1px 3px rgba(0, 0, 0, 0.12);
+}

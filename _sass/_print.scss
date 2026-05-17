@@ -1,55 +1,81 @@
 @media print {
-  @page {
-    size: A4;
+  @page { size: A4; }
+
+  /* Force light/clean tokens regardless of screen theme */
+  :root,
+  [data-theme="dark"],
+  [data-theme="light"] {
+    --bg:          #ffffff;
+    --panel:       #ffffff;
+    --panel-alt:   #f6f8fa;
+    --border:      #cccccc;
+    --text:        #000000;
+    --text-strong: #000000;
+    --text-muted:  #444444;
+    --accent:      #1a7f37;
+    --accent-dim:  transparent;
+    --shadow:      none;
   }
+
   body {
     font-size: 9pt;
-    background-color: white;
+    background-color: #ffffff;
     padding: 0;
   }
+
   .wrapper {
     max-width: 100%;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
   }
 
-  //   img.avatar {
-  //     filter: grayscale(1);
-  //     -webkit-filter: greyscale(1);
-  //   }
-  .main-wrapper .time {
-    padding: 10px 30px 10px 10px;
-    //  float: right;
-    //  color: black !important;
-    -webkit-print-color-adjust: exact;
+  .action-buttons,
+  .print-button,
+  .pdf-button,
+  .d-print-none {
+    display: none !important;
   }
+
   .sidebar-wrapper {
-    position: static;
-    //  float: right;
-    //  width: 40%;
     -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
-  .remove-container.container-block {
-    display: none;
+  .main-wrapper .time {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
-  footer {
-    display: none;
+  .item {
+    box-shadow: none !important;
+    break-inside: avoid;
+    border-left-color: #1a7f37 !important;
   }
 
+  .skill-category,
   .container-block {
     break-inside: avoid;
   }
 
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
+  .highlights-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 
-    /* Hide buttons when printing */
-    .print-button,
-    .pdf-button,
-    .d-print-none {
-        display: none !important;
-    }
+  .highlights-list li {
+    break-inside: avoid;
+  }
+
+  .fa-inverse,
+  .fa-inverse::after,
+  .fa-inverse::before {
+    color: #ffffff !important;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  footer { display: none; }
 }

@@ -10,9 +10,7 @@ url: 'https://career.secop.dev'
 
 description: Sean Cullen — Director of Security Operations
 google_site_verification: # paste your token from Search Console here (e.g. abc123XYZ) & Cloud Security Architect specializing in SIEM/SOAR detection engineering, threat hunting, DFIR, automated incident response, and Microsoft Sentinel & Azure security.
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: green # blue turquoise green berry orange ceramic teal oceanstale
-chrome_mobile_color: #006400 #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
+chrome_mobile_color: #0d1117 #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Sass/SCSS
 sass:

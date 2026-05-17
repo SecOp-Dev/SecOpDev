@@ -1,1 +1,17 @@
-<!-- Site scripts -->
+<script>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    var icon = document.getElementById('theme-icon');
+    if (!btn) return;
+    function syncIcon(t) {
+      icon.className = t === 'dark' ? 'fas fa-moon' : 'fas fa-sun';
+    }
+    syncIcon(document.documentElement.getAttribute('data-theme') || 'dark');
+    btn.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      syncIcon(next);
+    });
+  })();
+</script>
