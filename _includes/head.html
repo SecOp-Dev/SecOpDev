@@ -68,7 +68,7 @@
     "hasCredential": [{% for c in site.data.data.certifications.list %}
       {
         "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "certification",
+        "credentialCategory": "course",
         "name": {{ c.name | jsonify }},
         "recognizedBy": { "@type": "Organization", "name": {{ c.organization | jsonify }} }
       }{% unless forloop.last %},{% endunless %}{% endfor %}

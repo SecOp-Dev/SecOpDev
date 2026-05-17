@@ -89,23 +89,25 @@ experiences:
     company: Novolex — Charlotte, NC | $9B+ revenue | post-merger integration of 15 entities
     details: |
         Engineered and scaled an enterprise SIEM/SOAR platform integrating 40+ log sources with normalization, enrichment, and Logic Apps automation, reducing MTTD/MTTR by 60% and SOC operating costs by 20%. Designed end-to-end security architecture for a multi-tenant cloud environment; serve as incident response lead, validating controls through adversary emulation and driving operational readiness across all acquired business units.  <br />
-        •   Directed rapid EDR/MDR deployment — integrating CrowdStrike Falcon and Microsoft Defender for Endpoint across 11,000 assets in under 100 days, establishing a hardened endpoint baseline in a greenfield environment.
+        •   Directed rapid EDR/MDR deployment — integrating 60+ security technologies and rolling out CrowdStrike Falcon and Microsoft Defender for Endpoint across 11,000 assets in under 100 days, establishing a hardened endpoint baseline in a greenfield environment.
         •   Architected secure-by-design controls (least-privilege IAM, compliance-aligned guardrails, resilient telemetry, AI/ML detection pipelines), reducing aggregate enterprise risk exposure by 90%.
         •   Directed end-to-end incident response across identity, network, endpoint, and business teams, reducing potential incident impact by $5M+ annually.
         •   Unified SOC operations across 15 acquired businesses by standardizing SIEM/SOAR platforms, detection content, and IR playbooks, delivering centralized visibility and consistent enterprise-wide threat coverage.
         •   Partner directly with the CISO and CIO on cybersecurity strategy, board-level reporting, and Zero Trust roadmap execution across all business units.
         •   Designed incident response tabletop exercise (TTX), streamlining hiring process and capability validation for Security Analysts.
 
-  - role: Security Engineer
+  - role: Lead Security Engineer
     time: 2023 - 2025
     company: Pactiv Evergreen — Lake Forest, IL | Fortune 200 | $5B+ revenue | 25,000 users | 11,000 endpoints
     details: |
         Promoted from analyst into a full-time engineering role as the organization's first dedicated cybersecurity engineer. Managed SIEM and SOAR platforms, developing behavioral threat analytics, designing automated response workflows, and building threat-hunting dashboards. Partnered directly with the CISO to stand up the security organization from the ground up.  <br />
-        •   Optimized detection and response by re-engineering SIEM pipelines and tuning analytic logic — cutting SIEM ingestion costs 40%, reducing MTTR 250%, and dropping false-positive volume 300%.
+        •   Optimized detection and response by re-engineering SIEM pipelines and tuning analytic logic — cutting SIEM ingestion costs 40%, accelerating MTTR 2.5x, and cutting false-positive volume 3x.
         •   Engineered and scaled SOAR automation across 11,000 endpoints and 25,000 users using KQL and conditional Azure Logic Apps workflows, driving 22,000+ automated incident resolutions and 12,000+ response actions.
+        •   Built and maintained a MITRE ATT&CK-mapped detection content library — analytic rules, hunt queries, and watchlists — expanding technique coverage and accelerating proactive threat hunting.
         •   Authored a 92-page situational Incident Response Plan and accompanying automated playbooks, aligning orchestration with human decision points, regulatory obligations, and enterprise risk objectives.
         •   Strengthened identity security with JIT access via Azure PIM, risk-based Conditional Access through Entra ID Protection, and removal of local admin rights, reducing identity attack surface by 45%.
         •   Systemic threat modeling & attack-surface assessments across Active Directory, EASM inventories, internet-facing applications, and executive impersonation vectors, reducing exploitable risk by 60%.
+        •   Mentored junior analysts and engineers, established SOC standard operating procedures, and represented security in change-advisory boards, vendor evaluations, and architecture reviews alongside CIO leadership.
 
   - role: Security Analyst
     time: 2021 - 2023
@@ -129,7 +131,8 @@ experiences:
       •    On-site engineering and customer management.
 
 certifications:
-  title: Certifications &amp; Training
+  title: Certification Training &amp; Continuous Learning
+  intro: Exam-prep coursework and continuous professional development across security operations, cloud, and offensive disciplines.
   list:
   - name: CISSP
     start:
@@ -212,7 +215,7 @@ certifications:
     credentialname:
     details: |
 
-  - name: Pentest+ (V11 & V12)
+  - name: PenTest+ (V11 & V12)
     start:
     end:
     organization: CompTIA
@@ -230,7 +233,7 @@ certifications:
     credentialname:
     details: |
 
-  - name: ITIL 4 Leader: Digital & IT Strategy
+  - name: "ITIL 4 Leader: Digital & IT Strategy"
     start:
     end:
     organization: Axelos
@@ -260,7 +263,7 @@ certifications:
   - name: Python - APIs & API Design with Python
     start:
     end:
-    organization: CompTIA
+    organization:
     credentialid:
     credentialurl:
     credentialname:
@@ -337,7 +340,15 @@ skills:
     - Conditional Access
     - MFA / SSO
     - Zero Trust Architecture
-    - CSPM / EASM
+
+  - name: "Vulnerability &amp; Attack Surface"
+    items:
+    - Qualys
+    - Defender for Vulnerability Management
+    - External Attack Surface Management (EASM)
+    - Cloud Security Posture Management (CSPM)
+    - Threat Modeling
+    - Risk Assessment
 
   - name: "Programming &amp; Automation"
     items:
@@ -350,6 +361,15 @@ skills:
     - Git
     - CI/CD Pipelines
     - DAST
+
+  - name: "Offensive &amp; Forensics Tooling"
+    items:
+    - Burp Suite
+    - Nmap
+    - Wireshark
+    - Kali Linux
+    - Active Directory
+    - Group Policy
 
   - name: "Frameworks &amp; Compliance"
     items:
