@@ -84,8 +84,8 @@ education:
 experiences:
   title: Experiences
   info:
-  - role: Director of Security Operations
-    time: 2025 - Present
+  - role: Security Analyst II (Acting Director of Security Operations)
+    time: 2025 - 2026
     company: Novolex — Charlotte, NC | $9B+ revenue | post-merger integration of 15 entities
     details: |
         Engineered and scaled an enterprise SIEM/SOAR platform integrating 40+ log sources with normalization, enrichment, and Logic Apps automation, reducing MTTD/MTTR by 60% and SOC operating costs by 20%. Designed end-to-end security architecture for a multi-tenant cloud environment; serve as incident response lead, validating controls through adversary emulation and driving operational readiness across all acquired business units.  <br />
@@ -96,13 +96,13 @@ experiences:
         •   Partner directly with the CISO and CIO on cybersecurity strategy, board-level reporting, and Zero Trust roadmap execution across all business units.
         •   Designed incident response tabletop exercise (TTX), streamlining hiring process and capability validation for Security Analysts.
 
-  - role: Lead Security Engineer
+  - role: Security Analyst II
     time: 2023 - 2025
-    company: Pactiv Evergreen — Lake Forest, IL | Fortune 200 | $5B+ revenue | 25,000 users | 11,000 endpoints
+    company: Pactiv Evergreen — Lake Forest, IL | Fortune 200 | $5B+ revenue | 13,000 identities | 8,000 endpoints
     details: |
         Promoted from analyst into a full-time engineering role as the organization's first dedicated cybersecurity engineer. Managed SIEM and SOAR platforms, developing behavioral threat analytics, designing automated response workflows, and building threat-hunting dashboards. Partnered directly with the CISO to stand up the security organization from the ground up.  <br />
         •   Optimized detection and response by re-engineering SIEM pipelines and tuning analytic logic — cutting SIEM ingestion costs 40%, accelerating MTTR 2.5x, and cutting false-positive volume 3x.
-        •   Engineered and scaled SOAR automation across 11,000 endpoints and 25,000 users using KQL and conditional Azure Logic Apps workflows, driving 22,000+ automated incident resolutions and 12,000+ response actions.
+        •   Engineered and scaled SOAR automation across 11,000 endpoints and 25,000 identities using KQL and conditional Azure Logic Apps workflows, driving 22,000+ automated incident resolutions and 12,000+ response actions.
         •   Built and maintained a MITRE ATT&CK-mapped detection content library — analytic rules, hunt queries, and watchlists — expanding technique coverage and accelerating proactive threat hunting.
         •   Authored a 92-page situational Incident Response Plan and accompanying automated playbooks, aligning orchestration with human decision points, regulatory obligations, and enterprise risk objectives.
         •   Strengthened identity security with JIT access via Azure PIM, risk-based Conditional Access through Entra ID Protection, and removal of local admin rights, reducing identity attack surface by 45%.
@@ -111,7 +111,7 @@ experiences:
 
   - role: Security Analyst
     time: 2021 - 2023
-    company: Pactiv Evergreen — Lake Forest, IL | Fortune 200 | $5B+ revenue | 25,000 users | 11,000 endpoints
+    company: Pactiv Evergreen — Lake Forest, IL | Fortune 200 | $5B+ revenue | 13,000 identities | 8,000 endpoints
     details: |
         Served as frontline, advanced SOC analyst, specializing in deep forensic investigations, threat hunting, and high-fidelity incident response across cloud, identity, and endpoint domains. Played a key role in maturing detection capabilities by reducing false positives, operationalizing threat intelligence, and establishing repeatable investigative standards. <br />
         •   Performed advanced forensic analysis across endpoint (EDR), identity (Azure AD/Entra ID), and cloud telemetry to reconstruct attack timelines, identify root cause, and scope enterprise-wide impact.
